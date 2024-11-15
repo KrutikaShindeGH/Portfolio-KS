@@ -283,6 +283,11 @@ section {
     position: relative;
 }
 
+#about .text-container {
+    justify-content: center;
+    text-align: center;
+}
+
 .about-containers {
     gap: 2rem;
     margin-bottom: 2rem;
