@@ -76,6 +76,11 @@
     width: 100%;
     max-width: 300px;
   }
+  
+  #profile .section__text {
+    justify-content: center;
+  }
+  
   #profile {
     height: auto;
     margin-bottom: 0;
@@ -90,6 +95,12 @@
     height: fit-content;
     margin-bottom: 2rem;
   }
+
+  #about .section__pic-container {
+    justify-content: center;
+    margin-left: -1rem;
+  }
+  
   .about-containers,
   .contact-info-upper-container,
   .btn-container {
@@ -115,16 +126,18 @@
   }
   #profile .section__pic-container {
     align-items: normal;
-    margin-left: -0.5rem;
+    margin-left: -1rem;
     width: 400px;
     height: 400px;
     justify-content: center;
   }
   .section__text__p2 {
     font-size: 1.25rem;
+    justify-content: center;
   }
   .title {
     font-size: 2rem;
+    justify-content: center;
   }
   .text-container {
     text-align: justify;
