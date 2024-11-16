@@ -77,10 +77,6 @@
     max-width: 300px;
   }
   
-  #profile .section__text {
-    justify-content: center;
-  }
-  
   #profile {
     height: auto;
     margin-bottom: 0;
@@ -95,10 +91,20 @@
     height: fit-content;
     margin-bottom: 2rem;
   }
-
-  #about .section__pic-container {
+    .about-pic {
     justify-content: center;
-    margin-left: -1rem;
+    align-items: center;
+    margin-left: 2.5rem;
+  }
+
+  .publication-pic {
+    align-items: center;
+    margin-left: 1.3rem;
+    width: 330px;
+  }
+
+  .section-container {
+    justify-content: center;
   }
   
   .about-containers,
@@ -125,19 +131,107 @@
     text-align: center;
   }
   #profile .section__pic-container {
-    align-items: normal;
-    margin-left: -1rem;
     width: 400px;
     height: 400px;
+    margin-left: -0.6rem;
+    align-items: center;
     justify-content: center;
   }
+  .contact-info-upper-container {
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.5rem;
+  }
+
+  .contact-title {
+    margin-left: 1rem;
+  }
+
+  .btn-container {
+    align-items: center;
+    justify-content: center;
+  }
+  #techstack .details-container {
+    margin-left: -0.5rem;
+    margin-right: -1rem;
+  }
+
+  #about .text-container {
+    margin-left: 1.5rem;
+    margin-right: -1rem;
+  }
+
+  #profile .section__text {
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+  }
+
+  #profile .social-container {
+    align-items: center;
+    justify-content: center;
+    margin-left: 2.5rem;
+  }
+  
   .section__text__p2 {
     font-size: 1.25rem;
     justify-content: center;
+    align-items: center;
+    margin-left: 1.5rem;
+  }
+  .details-container.color-container .text-container {
+    text-align: center;
+    justify-content: center;
+  }
+
+  #course .details-container.color-container {
+    align-items: center;
+    justify-content: center;
+    margin-right: 0rem;
+  }
+
+  #internship .details-container.color-container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: -1.5rem;
+    margin-left: 1rem;
+  }
+
+  #internship .text-container {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section__text {
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer p {
+    margin-left: 1.5rem;
+  }
+
+  .about-containers {
+    justify-content: center;
+    margin-left: 2rem;
+  }
+
+  #publication .text-container {
+    margin-left: 1.5rem;
+  }
+
+  .text-container {
+    justify-content:space-around;
+    text-align: center;
+    align-items: center;
+    margin-left: 0.5rem;
   }
   .title {
     font-size: 2rem;
     justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
   }
   .text-container {
     text-align: justify;
