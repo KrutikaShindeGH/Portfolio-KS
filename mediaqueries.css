@@ -149,6 +149,7 @@
   .btn-container {
     align-items: center;
     justify-content: center;
+    margin-left: 2rem;
   }
   #techstack .details-container {
     margin-left: -0.5rem;
@@ -163,7 +164,7 @@
   #profile .section__text {
     align-items: center;
     justify-content: center;
-    margin-left: 2rem;
+    margin-left: 1rem;
   }
 
   #profile .social-container {
