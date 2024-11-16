@@ -204,12 +204,14 @@ section {
 }
 
 .section__text__p1 {
-    text-align: center;
+  text-align: center;
+  justify-content: center;   
 }
 
 .section__text__p2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  justify-content: center;
 }
 
 .title {
