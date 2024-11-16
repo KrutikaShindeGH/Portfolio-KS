@@ -197,6 +197,12 @@
     margin-left: 1rem;
   }
 
+  .section__text__p1 {
+    justify-content: center;
+    algin-item: center;
+    margin-left: 1rem;
+  }
+
   #internship .text-container {
     justify-content: center;
     align-items: center;
