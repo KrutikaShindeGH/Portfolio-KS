@@ -80,6 +80,9 @@
     height: auto;
     margin-bottom: 0;
   }
+  footer .nav-links-container {
+    display: none;
+  }
   article {
     font-size: 1rem;
   }
@@ -110,9 +113,11 @@
     gap: 0.5rem;
     text-align: center;
   }
-  .section__pic-container {
-    width: auto;
-    height: auto;
+  #profile .section__pic-container {
+    align-items: normal;
+    margin-left: -0.5rem;
+    width: 400px;
+    height: 400px;
     justify-content: center;
   }
   .section__text__p2 {
